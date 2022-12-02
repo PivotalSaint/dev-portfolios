@@ -2,14 +2,10 @@ import React from "react";
 
 function Nav() {
   const categories = [
+    { name: "Portfolio", description: "A compiled set of Art by Pivotal" },
+    { name: "Contact", description: "Get in touch with the Developer" },
     {
-      name: "about",
-      description: "Get to know Pivotal",
-    },
-    { name: "portfolio", description: "A compiled set of Art by Pivotal" },
-    { name: "contact", description: "Get in touch with the Developer" },
-    {
-      name: "resume",
+      name: "Resume",
       description: "List of all Credentials",
     },
   ];
@@ -20,22 +16,13 @@ function Nav() {
     <header>
       <h2>
         <a href="/">
-          <span role="img" aria-label="trademark"></span> Pivotal Saint
+         Pivotal Saint <span role="img" aria-label="copyright">&#169;</span>
         </a>
       </h2>
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about">About me</a>
-          </li>
-          <li>
-            <span>Contact</span>
-          </li>
-          <li>
-            <span>Portfolio</span>
-          </li>
-          <li>
-            <span>Resume</span>
+            <a href="#about">About the Developer</a>
           </li>
           {categories.map((category) => (
             <li className="mx-1" key={category.name}>
