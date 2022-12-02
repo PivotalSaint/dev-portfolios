@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Nav from "./components/Nav";
-import About from "./components/AboutMe";
+import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
@@ -12,14 +12,9 @@ function App() {
       <Nav></Nav>
       <main>
         <About></About>
-
-        <div>
-          <Portfolio></Portfolio>
-        </div>
-        <section>
-          <Resume></Resume>
-          <Contact></Contact>
-        </section>
+        <Portfolio></Portfolio>
+        <Resume></Resume>
+        <Contact></Contact>
       </main>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 function Nav() {
   const categories = [
     {
-      name: "about-me",
+      name: "about",
       description: "Get to know Pivotal",
     },
     { name: "portfolio", description: "A compiled set of Art by Pivotal" },
@@ -26,7 +26,7 @@ function Nav() {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about-me">About me</a>
+            <a href="#about">About me</a>
           </li>
           <li>
             <span>Contact</span>
