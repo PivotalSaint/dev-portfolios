@@ -1,17 +1,6 @@
 import React from "react";
 
 function Nav() {
-  const categories = [
-    { name: "Portfolio", description: "A compiled set of Art by Pivotal" },
-    { name: "Contact", description: "Get in touch with the Developer" },
-    {
-      name: "Resume",
-      description: "List of all Credentials",
-    },
-  ];
-  function categorySelected() {
-    console.log("P.S.");
-  }
   return (
     <header>
       <h2>
@@ -22,13 +11,11 @@ function Nav() {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a href="#about">About the Developer</a>
+            <a href="#about" className="mx-2">About the Developer</a>
+            <a href="#portfolio" className="mx-2">Portfolio</a>
+            <a href="#contact" className="mx-2">Contact</a>
+            <a href="#resume" className="mx-2">Resume</a>
           </li>
-          {categories.map((category) => (
-            <li className="mx-1" key={category.name}>
-              <span onClick={categorySelected}>{category.name}</span>
-            </li>
-          ))}
         </ul>
       </nav>
     </header>
