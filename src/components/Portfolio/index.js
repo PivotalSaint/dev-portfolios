@@ -14,7 +14,7 @@ function Portfolio() {
       <img
         src={alludaShot}
         className="my-2"
-        style={{ width: "100%" }}
+        style={{ width: "75%" }}
         alt="cover"
       />
 
@@ -30,7 +30,7 @@ function Portfolio() {
             <img
               src={noteTaker}
               className="my-2"
-              style={{ width: "100%" }}
+              style={{ width: "75%" }}
               alt="cover"
             />
       
@@ -44,7 +44,7 @@ function Portfolio() {
             <img
               src={horiseon}
               className="my-2"
-              style={{ width: "100%" }}
+              style={{ width: "75%" }}
               alt="cover"
             />
           <p>This project was the first project created and shows html/css functionality.</p>
