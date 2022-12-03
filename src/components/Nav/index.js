@@ -4,7 +4,7 @@ function Nav() {
   return (
     <header>
       <h2 className="modaltitle my-5 mx-2">
-        <a href="/">
+        <a href="https://pivotalsaint.com">
          Pivotal Saint <span role="img" aria-label="copyright">&#169;</span>
         </a>
       </h2>
